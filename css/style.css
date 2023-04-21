@@ -1,0 +1,82 @@
+.ClasePadre {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  border: 1px solid;
+  align-items: center;
+  background-color: rgb(196, 57, 57);
+}
+
+.clasehijastro {
+  border: 1px black solid;
+  margin: 1px;
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+  height: 70px;
+  width: 350px;
+}
+
+.clasehijastro >a{
+   margin: 22px;
+   justify-content: center;
+   align-self: center;
+   color: blanchedalmond;
+
+}
+
+.clasehijo {
+border: 1px solid;
+margin: 10px;
+height: 100px;
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.imagen{
+  width: 100%;
+  object-fit:  contain;
+}
+
+.titulo{
+  text-align: center;
+  border: 1px solid;
+  margin: 1px;
+  height: 100%;
+  width: 50%;
+
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.imagenes{
+  border: 1px solid;
+  margin: 1px;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  overflow: hidden;
+  
+}
+
+.imagenes2{
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+
+
+
